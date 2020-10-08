@@ -2,7 +2,7 @@ version: '3'
 services:
   db:
     image: "postgres:13"
-    container_name: "boilerplate"
+    container_name: "sparky"
     env_file:
     - ./.env
     ports:
